@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1455A9069803398A5D71876 /* Pods_iTech2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EF1630F8D2A07AB6DFEC5C /* Pods_iTech2018.framework */; };
 		D4176C7221BB926000DD8410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4176C7121BB926000DD8410 /* AppDelegate.swift */; };
 		D4176C7421BB926000DD8410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4176C7321BB926000DD8410 /* ViewController.swift */; };
-		D4176C7721BB926000DD8410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4176C7521BB926000DD8410 /* Main.storyboard */; };
 		D4176C7921BB926100DD8410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4176C7821BB926100DD8410 /* Assets.xcassets */; };
 		D4176C7C21BB926100DD8410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4176C7A21BB926100DD8410 /* LaunchScreen.storyboard */; };
+		D42306A421BBA63F0099AA7C /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306A321BBA63F0099AA7C /* TapticEngine.swift */; };
+		D42306A621BBBC5C0099AA7C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306A521BBBC5C0099AA7C /* PhotoViewController.swift */; };
+		D42306A821BBD5220099AA7C /* ForcePressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306A721BBD5220099AA7C /* ForcePressGestureRecognizer.swift */; };
+		D42306AB21BBE0110099AA7C /* UserResizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306AA21BBE0110099AA7C /* UserResizableImageView.swift */; };
+		D42306AF21BBEBD20099AA7C /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306AE21BBEBD20099AA7C /* Scene.swift */; };
+		D42306B921BC11C80099AA7C /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306B821BC11C80099AA7C /* PasscodeViewController.swift */; };
+		D42306BB21BC18C60099AA7C /* TapticPasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42306BA21BC18C60099AA7C /* TapticPasscodeView.swift */; };
+		D4F37CCE21BC337C006ECA14 /* TapticPasscodeDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CCD21BC337C006ECA14 /* TapticPasscodeDotView.swift */; };
+		D4F37CD121BC4AD3006ECA14 /* CircleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CD021BC4AD3006ECA14 /* CircleGestureRecognizer.swift */; };
+		D4F37CD321BC4C91006ECA14 /* DeepPressButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CD221BC4C91006ECA14 /* DeepPressButtonViewController.swift */; };
+		D4F37CD521BC8DB7006ECA14 /* TapticButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CD421BC8DB7006ECA14 /* TapticButton.swift */; };
+		D4F37CD721BC97B8006ECA14 /* Confetti.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CD621BC97B8006ECA14 /* Confetti.swift */; };
+		D4F37CD921BC9D48006ECA14 /* ReactiveHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CD821BC9D48006ECA14 /* ReactiveHelpers.swift */; };
+		D4F37CDB21BCABD8006ECA14 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CDA21BCABD8006ECA14 /* MapViewController.swift */; };
+		D4F37CDD21BCC0E3006ECA14 /* MapKitHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CDC21BCC0E3006ECA14 /* MapKitHelpers.swift */; };
+		D4F37CDF21BCCA4A006ECA14 /* TapticMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F37CDE21BCCA4A006ECA14 /* TapticMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10A646E6F8505018766C4781 /* Pods-iTech2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTech2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTech2018/Pods-iTech2018.debug.xcconfig"; sourceTree = "<group>"; };
+		23EF1630F8D2A07AB6DFEC5C /* Pods_iTech2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTech2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23F780E256DDBBC5EE64F37 /* Pods-iTech2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTech2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTech2018/Pods-iTech2018.release.xcconfig"; sourceTree = "<group>"; };
 		D4176C6E21BB926000DD8410 /* iTech2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTech2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4176C7121BB926000DD8410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4176C7321BB926000DD8410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4176C7621BB926000DD8410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4176C7821BB926100DD8410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4176C7B21BB926100DD8410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4176C7D21BB926100DD8410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D42306A321BBA63F0099AA7C /* TapticEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
+		D42306A521BBBC5C0099AA7C /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		D42306A721BBD5220099AA7C /* ForcePressGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcePressGestureRecognizer.swift; sourceTree = "<group>"; };
+		D42306AA21BBE0110099AA7C /* UserResizableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResizableImageView.swift; sourceTree = "<group>"; };
+		D42306AE21BBEBD20099AA7C /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		D42306B821BC11C80099AA7C /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
+		D42306BA21BC18C60099AA7C /* TapticPasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticPasscodeView.swift; sourceTree = "<group>"; };
+		D4F37CCD21BC337C006ECA14 /* TapticPasscodeDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticPasscodeDotView.swift; sourceTree = "<group>"; };
+		D4F37CD021BC4AD3006ECA14 /* CircleGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGestureRecognizer.swift; sourceTree = "<group>"; };
+		D4F37CD221BC4C91006ECA14 /* DeepPressButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepPressButtonViewController.swift; sourceTree = "<group>"; };
+		D4F37CD421BC8DB7006ECA14 /* TapticButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticButton.swift; sourceTree = "<group>"; };
+		D4F37CD621BC97B8006ECA14 /* Confetti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confetti.swift; sourceTree = "<group>"; };
+		D4F37CD821BC9D48006ECA14 /* ReactiveHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveHelpers.swift; sourceTree = "<group>"; };
+		D4F37CDA21BCABD8006ECA14 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D4F37CDC21BCC0E3006ECA14 /* MapKitHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitHelpers.swift; sourceTree = "<group>"; };
+		D4F37CDE21BCCA4A006ECA14 /* TapticMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapticMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1455A9069803398A5D71876 /* Pods_iTech2018.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		757600891734094CBA752050 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A646E6F8505018766C4781 /* Pods-iTech2018.debug.xcconfig */,
+				D23F780E256DDBBC5EE64F37 /* Pods-iTech2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0D66706293073E0BE692873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23EF1630F8D2A07AB6DFEC5C /* Pods_iTech2018.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4176C6521BB926000DD8410 = {
 			isa = PBXGroup;
 			children = (
-				D4176C7021BB926000DD8410 /* iTech2018 */,
+				D4176C7021BB926000DD8410 /* Targets */,
 				D4176C6F21BB926000DD8410 /* Products */,
+				757600891734094CBA752050 /* Pods */,
+				C0D66706293073E0BE692873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,17 +105,96 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4176C7021BB926000DD8410 /* iTech2018 */ = {
+		D4176C7021BB926000DD8410 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				D42306B021BBEBEC0099AA7C /* Application (iOS) */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		D42306A221BBA6360099AA7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4F37CD621BC97B8006ECA14 /* Confetti.swift */,
+				D42306A721BBD5220099AA7C /* ForcePressGestureRecognizer.swift */,
+				D4F37CD821BC9D48006ECA14 /* ReactiveHelpers.swift */,
+				D4F37CD021BC4AD3006ECA14 /* CircleGestureRecognizer.swift */,
+				D42306A321BBA63F0099AA7C /* TapticEngine.swift */,
+				D4F37CDC21BCC0E3006ECA14 /* MapKitHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D42306A921BBD6F80099AA7C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D42306A521BBBC5C0099AA7C /* PhotoViewController.swift */,
+				D4176C7321BB926000DD8410 /* ViewController.swift */,
+				D42306B821BC11C80099AA7C /* PasscodeViewController.swift */,
+				D4F37CD221BC4C91006ECA14 /* DeepPressButtonViewController.swift */,
+				D4F37CDA21BCABD8006ECA14 /* MapViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D42306B021BBEBEC0099AA7C /* Application (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				D42306B121BBEBF10099AA7C /* Files */,
+				D42306B221BBEBF70099AA7C /* Supporting Files */,
+			);
+			path = "Application (iOS)";
+			sourceTree = "<group>";
+		};
+		D42306B121BBEBF10099AA7C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42306B721BBEDEA0099AA7C /* Application Delegate & Scenes */,
+				D42306A221BBA6360099AA7C /* Helpers */,
+				D42306B621BBEDDB0099AA7C /* UI Components */,
+				D42306A921BBD6F80099AA7C /* View Controllers */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D42306B221BBEBF70099AA7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42306B321BBEC020099AA7C /* Bundle Resources */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42306B321BBEC020099AA7C /* Bundle Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4176C7A21BB926100DD8410 /* LaunchScreen.storyboard */,
+				D4176C7821BB926100DD8410 /* Assets.xcassets */,
+				D4176C7D21BB926100DD8410 /* Info.plist */,
+			);
+			path = "Bundle Resources";
+			sourceTree = "<group>";
+		};
+		D42306B621BBEDDB0099AA7C /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				D42306AA21BBE0110099AA7C /* UserResizableImageView.swift */,
+				D42306BA21BC18C60099AA7C /* TapticPasscodeView.swift */,
+				D4F37CCD21BC337C006ECA14 /* TapticPasscodeDotView.swift */,
+				D4F37CD421BC8DB7006ECA14 /* TapticButton.swift */,
+				D4F37CDE21BCCA4A006ECA14 /* TapticMapView.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		D42306B721BBEDEA0099AA7C /* Application Delegate & Scenes */ = {
 			isa = PBXGroup;
 			children = (
 				D4176C7121BB926000DD8410 /* AppDelegate.swift */,
-				D4176C7321BB926000DD8410 /* ViewController.swift */,
-				D4176C7521BB926000DD8410 /* Main.storyboard */,
-				D4176C7821BB926100DD8410 /* Assets.xcassets */,
-				D4176C7A21BB926100DD8410 /* LaunchScreen.storyboard */,
-				D4176C7D21BB926100DD8410 /* Info.plist */,
+				D42306AE21BBEBD20099AA7C /* Scene.swift */,
 			);
-			path = iTech2018;
+			path = "Application Delegate & Scenes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4176C8021BB926100DD8410 /* Build configuration list for PBXNativeTarget "iTech2018" */;
 			buildPhases = (
+				302D542A803C3050DD6C6C0B /* [CP] Check Pods Manifest.lock */,
 				D4176C6A21BB926000DD8410 /* Sources */,
 				D4176C6B21BB926000DD8410 /* Frameworks */,
 				D4176C6C21BB926000DD8410 /* Resources */,
+				BF33326551F081B2045B0D3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +259,99 @@
 			files = (
 				D4176C7C21BB926100DD8410 /* LaunchScreen.storyboard in Resources */,
 				D4176C7921BB926100DD8410 /* Assets.xcassets in Resources */,
-				D4176C7721BB926000DD8410 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		302D542A803C3050DD6C6C0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTech2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF33326551F081B2045B0D3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTech2018/Pods-iTech2018-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTech2018/Pods-iTech2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4176C6A21BB926000DD8410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F37CD521BC8DB7006ECA14 /* TapticButton.swift in Sources */,
+				D42306B921BC11C80099AA7C /* PasscodeViewController.swift in Sources */,
+				D4F37CCE21BC337C006ECA14 /* TapticPasscodeDotView.swift in Sources */,
 				D4176C7421BB926000DD8410 /* ViewController.swift in Sources */,
+				D4F37CDF21BCCA4A006ECA14 /* TapticMapView.swift in Sources */,
+				D4F37CD921BC9D48006ECA14 /* ReactiveHelpers.swift in Sources */,
+				D4F37CD121BC4AD3006ECA14 /* CircleGestureRecognizer.swift in Sources */,
+				D4F37CD321BC4C91006ECA14 /* DeepPressButtonViewController.swift in Sources */,
+				D42306BB21BC18C60099AA7C /* TapticPasscodeView.swift in Sources */,
+				D4F37CD721BC97B8006ECA14 /* Confetti.swift in Sources */,
+				D42306A421BBA63F0099AA7C /* TapticEngine.swift in Sources */,
 				D4176C7221BB926000DD8410 /* AppDelegate.swift in Sources */,
+				D42306AB21BBE0110099AA7C /* UserResizableImageView.swift in Sources */,
+				D42306AF21BBEBD20099AA7C /* Scene.swift in Sources */,
+				D42306A821BBD5220099AA7C /* ForcePressGestureRecognizer.swift in Sources */,
+				D42306A621BBBC5C0099AA7C /* PhotoViewController.swift in Sources */,
+				D4F37CDD21BCC0E3006ECA14 /* MapKitHelpers.swift in Sources */,
+				D4F37CDB21BCABD8006ECA14 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4176C7521BB926000DD8410 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4176C7621BB926000DD8410 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D4176C7A21BB926100DD8410 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +481,12 @@
 		};
 		D4176C8121BB926100DD8410 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A646E6F8505018766C4781 /* Pods-iTech2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PWQ7VFGWM;
-				INFOPLIST_FILE = iTech2018/Info.plist;
+				INFOPLIST_FILE = "Targets/Application (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +500,12 @@
 		};
 		D4176C8221BB926100DD8410 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23F780E256DDBBC5EE64F37 /* Pods-iTech2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PWQ7VFGWM;
-				INFOPLIST_FILE = iTech2018/Info.plist;
+				INFOPLIST_FILE = "Targets/Application (iOS)/Supporting Files/Bundle Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
